@@ -1,0 +1,93 @@
+/* App.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 6rem;
+    background-color: #f8f9fa;
+}
+
+.navbar a {
+    text-decoration:double;
+    color: black;
+    margin: 0 0.5rem;
+}
+
+.hero {
+    background-color: #343a40;
+    color: white;
+    padding: 5rem 1rem;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem 1rem;
+}
+
+.product-card {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+    width: 200px;
+    margin: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-card .sale {
+    background-color: black;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 3px;
+}
+
+.product-card .price {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.product-card .sale-price {
+    color: red;
+    font-weight: bold;
+}
+
+.product-card button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.product-card button:hover {
+    background-color: #0056b3;
+}
+.footer{
+  background-color: #343a40;
+  text-align: center;
+  color: white;
+  padding: 1rem 0;
+  height: 50px;
+  width: 100%;
+}
